@@ -1,33 +1,25 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
-//Components
-//import {ItemNavbar} from "./item-navbar"
-//import {Login} from './btn-login'
-
-export class Navbar extends Component {
+export class NavBar extends Component {
     render() {
         return (
-
-            <div className="Navbar" >
-                <nav className="navbar navbar-light" style={{ backgroundColor: "#74EF02" }}>
-
+            <div className="Navbar" style={{ backgroundColor: "rgb(0,146,64)" }}>
+                <nav className="navbar navbar-dark">
                     <div className="container">
-
                         <div className="row">
-                            <a className="navbar-brand" href="#">Polimatch</a>
+                            <Link to="/" className="navbar-brand">PoliMath</Link>
                             <div className="col-sm">
                             </div>
                         </div>
-
                         <div className="row">
                             <div className="col-sm">
-                                <a className="navbar-brand" href="#">Nosotros</a>
+                                <button className="navbar-brand btn btn-outline-success">Nosotros</button>
                             </div>
                         </div>
                     </div>
                 </nav>
             </div>
-
         )
     }
 }

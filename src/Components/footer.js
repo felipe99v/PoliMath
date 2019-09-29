@@ -3,16 +3,11 @@ import React from 'react'
 export const Footer = ({ children }) => (
 
     <div className="Footer">
-        <footer>
-            <div className="row">
-                <div className="col">
-                    {children}
-                    <p className="txt-footer">
-                        <strong>Polimatch</strong> copyright 2019
-                        <strong>Polimatch</strong> copyright 2019
-                    </p>
-                </div>
-
+        <footer class="py1 bg-dark text-white">
+            <div className="container text-center">
+                <small>Copyright 2019 &copy; <strong>PoliMath</strong></small>
+                <br></br>
+                Politécnico Colombiano Jaime Isaza Cadavid
             </div>
         </footer>
     </div>
