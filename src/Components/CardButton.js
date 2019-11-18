@@ -8,11 +8,11 @@ export class CardButton extends Component {
     render() {
         return (
             <div className="Cards">
-                <div class="card text-white text-center bg-dark mb-3" style={{ maxWidth: "12rem" }}>
-                    <div class="card-header ">Limites</div>
-                    <div class="card-body">
-                        <h5 class="card-title">cursito limite</h5>
-                        <button class="card-text btn btn-dark ">Aqui boton</button>
+                <div className="card text-white text-center bg-dark mb-3" style={{ maxWidth: "12rem" }}>
+                    <div className="card-header ">Limites</div>
+                    <div className="card-body">
+                        <h5 className="card-title">cursito limite</h5>
+                        <button className="card-text btn btn-dark ">Aqui boton</button>
                     </div>
                 </div>
             </div>
