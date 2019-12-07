@@ -14,7 +14,9 @@ export class NavBar extends Component {
                         </div>
                         <div className="row">
                             <div className="col-sm">
-                                <button className="navbar-brand btn btn-outline-success">Nosotros</button>
+                            <Link to="/Nosotros">
+                            <button className="navbar-brand btn btn-outline-success">Nosotros</button>
+                            </Link>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
 //Components
 //import {ItemNavbar} from "./item-navbar"
@@ -9,10 +10,12 @@ export class CardButton extends Component {
         return (
             <div className="Cards">
                 <div className="card text-white text-center bg-dark mb-3" style={{ maxWidth: "12rem" }}>
-                    <div className="card-header ">Limites</div>
+                    <div className="card-header ">Integral</div>
                     <div className="card-body">
-                        <h5 className="card-title">cursito limite</h5>
-                        <button className="card-text btn btn-dark ">Aqui boton</button>
+                        <h5 className="card-title">Guia para entender el concepto de Integral</h5>
+                        <Link to="/Integral">
+                        <button className="card-text btn btn-dark ">Ingresa al curso</button>
+                            </Link>
                     </div>
                 </div>
             </div>

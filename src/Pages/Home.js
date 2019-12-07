@@ -10,15 +10,6 @@ function Home() {
                     <div className="m-md-3">
                         <CardButton />
                     </div>
-                    <div className="m-md-3">
-                        <CardButton />
-                    </div>
-                    <div className="m-md-3">
-                        <CardButton />
-                    </div>
-                </div>
-                <div id="jxgbox" className="jxgbox">
-                    <Example />
                 </div>
             </div>
         </React.Fragment>

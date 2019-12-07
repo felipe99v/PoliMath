@@ -24,7 +24,7 @@ export default class Example extends Component {
     render() {
         return (
             <div>
-                <h1>JSXGraph with javascript function and style:</h1>
+                <h1>Guia para entender el concepto de integral</h1>
                 <JXGBoard
                     logic={logicJS}
                     boardAttributes={{ axis: true, boundingbox: [-3, 5, 3, -3] }}
