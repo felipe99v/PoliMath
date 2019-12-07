@@ -7,4 +7,4 @@ import * as serviceWorker from './serviceWorker';
 import './Styles/index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
+serviceWorker.register();
