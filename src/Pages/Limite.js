@@ -1,15 +1,60 @@
 import React from "react";
-import Example from '../Components/Example'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+import RiemannIntegrability from "../Components/Graficas/RiemannIntegrability";
 
 class Limite extends React.Component {
   render() {
     return (
       <React.Fragment>
         <div className="Page-header">
-        <div id="jxgbox" className="jxgbox">
-                    <Example />
+          <h1>Guia para entender el concepto de integral</h1>
+          <Container fluid="true">
+            <Row noGutters="true">
+              <Col>
+                <div id="jxgbox" className="jxgbox">
+                  <RiemannIntegrability />
                 </div>
-            </div>
+              </Col>
+              <Col>
+                <div className="overflow">
+                  <blockquote className="blockquote mb-0">
+                    <p class="mb-0">
+                      La integración surgió por la necesidad de calcular áreas
+                      de figuras irregulares ya que el área por ejemplo de un
+                      cuadrado se puede obtener mediante la utilización de
+                      fórmulas matemáticas simples, pero ¿cómo calculo el área
+                      de la figura que vemos a la izquierda? La idea que surgió
+                      fue dividir un problema complejo en problemas más
+                      sencillos así surgió el método griego llamado
+                      “agotamiento” que consiste en transformar una figura
+                      irregular en figuras con forma regulares que tuvieran una
+                      forma sencilla de obtener su área. Ahora para obtener el
+                      área de la figura del lado izquierdo debemos de dividirla
+                      en intervalos cada vez más pequeños y realizar rectángulos
+                      que suban hasta la gráfica. La suma del el área de cada
+                      uno de estos rectángulos será el área de la gráfica y así
+                      surge el concepto de integral. Recuerda una integral es
+                      una suma de las áreas de infinitos rectángulos.
+                    </p>
+                  </blockquote>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <div style={{ margin: "8px",display: 'flex', justifyContent: 'center'}}>
+          <Link to="/QuizLimite">
+            <Button
+              variant="success"
+            >
+              Quiz
+            </Button>
+          </Link>
+          </div>
+        </div>
       </React.Fragment>
     );
   }

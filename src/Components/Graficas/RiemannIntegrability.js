@@ -20,11 +20,10 @@ let logicJS = (brd) => {
     brd.create('text', [-2, -2, function () { return 'Diff=' + (JXG.Math.Numerics.riemannsum(f, n.Value(), 'upper', -3, 3) - JXG.Math.Numerics.riemannsum(f, n.Value(), 'lower', -3, 3)).toFixed(4); }]);
 }
 
-export default class Example extends Component {
+export default class RiemannIntegrability extends Component {
     render() {
         return (
-            <div>
-                <h1>Guia para entender el concepto de integral</h1>
+            <div>                
                 <JXGBoard
                     logic={logicJS}
                     boardAttributes={{ axis: true, boundingbox: [-3, 5, 3, -3] }}

@@ -3,7 +3,7 @@ import CardButton from "../Components/CardButton";
 
 function Home() {
   return (
-    <React.Fragment>
+    <React.Fragment className='reactFragment'>
       <div className="Page-header">
         <div className=" d-flex justify-content-center">
           <div className="m-md-3">
@@ -28,6 +28,14 @@ function Home() {
               Descripcion="Concepto de Integral"
               Boton="Ingresar"
               Ruta="Integral"
+            />
+          </div>
+          <div className="m-md-3">
+            <CardButton
+              Nombre="Quiz General"
+              Descripcion="Prueba tus conocimientos"
+              Boton="Comenzar"
+              Ruta="QuizGeneral"
             />
           </div>
         </div>

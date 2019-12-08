@@ -13,3 +13,7 @@
 .Footer {
   flex-shrink: none;
 }
+.overflow {
+  max-height: 70vh;  
+  overflow-y: auto;
+}

@@ -11,6 +11,10 @@ import Nosotros from "../Pages/Nosotros";
 import Integral from "../Pages/Integral";
 import Limite from "../Pages/Derivada";
 import Derivada from "../Pages/Limite";
+import QuizGeneral from "../Pages/Quiz/QuizGeneral";
+import QuizDerivada from "../Pages/Quiz/QuizDerivada";
+import QuizIntegral from "../Pages/Quiz/QuizIntegral";
+import QuizLimite from "../Pages/Quiz/QuizLimite";
 
 //Librerias
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,6 +30,10 @@ function App() {
           <Route exact path="/Integral" component={Integral} />
           <Route exact path="/Limite" component={Limite} />
           <Route exact path="/Derivada" component={Derivada} />
+          <Route exact path="/QuizGeneral" component={QuizGeneral} />
+          <Route exact path="/QuizDerivada" component={QuizDerivada} />
+          <Route exact path="/QuizIntegral" component={QuizIntegral} />
+          <Route exact path="/QuizLimite" component={QuizLimite} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
