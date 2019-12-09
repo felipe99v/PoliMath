@@ -3,19 +3,19 @@ export const quiz =  {
     "quizSynopsis": "Quiz sobre integrales",
     "questions": [
       {
-        "question": "¿A que hace referencia el término “agotamiento”?",
+        "question": "¿A que hace referencia el concepto de “divide y venceras”?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
           "Regla para aplicar la integral",
           "Metodo de integración",
-          "Dividir un problema complejo en problemas mas sensillos",
+          "Dividir un problema complejo en problemas mas sencillos",
           "Disminuir un problema paulatinamente"
         ],
         "correctAnswer": "3",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Dividir un problema complejo en problemas más sencillos es conocido como el método griego llamado “agotamiento” ",
+        "explanation": "Dividir un problema complejo en problemas más sencillos es conocido como el método griego llamado “agotamiento” o “divide y venceras” ",
         "point": "20"
       },
       {
