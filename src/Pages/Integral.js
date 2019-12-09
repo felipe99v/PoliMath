@@ -21,26 +21,12 @@ class Integral extends React.Component {
               </Col>
               <Col>
                 <div className="overflow">
-                  <blockquote className="blockquote mb-0">
-                    <p class="mb-0">
-                      La integración surgió por la necesidad de calcular áreas
-                      de figuras irregulares ya que el área por ejemplo de un
-                      cuadrado se puede obtener mediante la utilización de
-                      fórmulas matemáticas simples, pero ¿cómo calculo el área
-                      de la figura que vemos a la izquierda? La idea que surgió
-                      fue dividir un problema complejo en problemas más
-                      sencillos así surgió el método griego llamado
-                      “agotamiento” que consiste en transformar una figura
-                      irregular en figuras con forma regulares que tuvieran una
-                      forma sencilla de obtener su área. Ahora para obtener el
-                      área de la figura del lado izquierdo debemos de dividirla
-                      en intervalos cada vez más pequeños y realizar rectángulos
-                      que suban hasta la gráfica. La suma del el área de cada
-                      uno de estos rectángulos será el área de la gráfica y así
-                      surge el concepto de integral. Recuerda una integral es
-                      una suma de las áreas de infinitos rectángulos.
-                    </p>
-                  </blockquote>
+                <blockquote class="blockquote">
+  <p class="mb-5">La integración surgió por la necesidad de calcular áreas de figuras irregulares ya que el área por ejemplo de un cuadrado se puede obtener mediante la utilización de fórmulas matemáticas simples</p> 
+  <p class="mb-5">pero ¿cómo calculo el área de la figura que vemos a la izquierda? La idea que surgió fue dividir un problema complejo en problemas más sencillos así surgió el método griego llamado “agotamiento” que consiste en transformar una figura irregular en figuras con forma regulares que tuvieran una forma sencilla de obtener su área.</p> 
+  <p class="mb-5">Ahora para obtener el área de la figura del lado izquierdo debemos de dividirla en intervalos cada vez más pequeños y realizar rectángulos que suban hasta la gráfica. La suma del área de cada uno de estos rectángulos será el área de la gráfica y así surge el concepto de integral.</p> 
+  <p class="mb-5">Recuerda una integral es una suma de las áreas de infinitos rectángulos.</p>
+</blockquote>
                 </div>
               </Col>
             </Row>

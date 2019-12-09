@@ -3,95 +3,62 @@ export const quiz =  {
     "quizSynopsis": "Quiz sobre Derivadas",
     "questions": [
       {
-        "question": "How can you access the state of a component from inside of a member function?",
+        "question": "Que es una función?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "this.getState()",
-          "this.prototype.stateValue",
-          "this.state",
-          "this.values"
-        ],
-        "correctAnswer": "3",
-        "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
-        "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "20"
-      },
-      {
-        "question": "ReactJS is developed by _____?",
-        "questionType": "text",
-        "answerSelectionType": "single",
-        "answers": [
-          "Google Engineers",
-          "Facebook Engineers"
+          "secuencia o cadena de caracteres cuyos símbolos pertenecen a un lenguaje formal, de tal manera que la expresión cumple ciertas reglas de buena formación.",
+          "relación entre unos datos de entrada y unos datos de salida",
+          "Igualdad entre dos expresiones que contiene una o más variables.",
         ],
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "explanation": "Una función es una relación entre unos datos de entrada y unos datos de salida, es decir, una función entre dos conjuntos A y B es una asociación F que a cada elemento de A le asigna elemento de B. ",
         "point": "20"
       },
       {
-        "question": "ReactJS is an MVC based framework?",
+        "question": "¿Se puede utilizar las derividas para el calculo de velocidades?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": "2",
-        "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
-        "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "10"
-      },
-      {
-        "question": "Which of the following concepts is/are key to ReactJS?",
-        "questionType": "text",
-        "answerSelectionType": "single",
-        "answers": [
-          "Component-oriented design",
-          "Event delegation model",
-          "Both of the above",
-        ],
-        "correctAnswer": "3",
-        "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
-        "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "30"
-      },
-      {
-        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        "questionType": "photo",
-        "answerSelectionType": "single",
-        "answers": [
-          "https://dummyimage.com/600x400/000/fff&text=A",
-          "https://dummyimage.com/600x400/000/fff&text=B",
-          "https://dummyimage.com/600x400/000/fff&text=C",
-          "https://dummyimage.com/600x400/000/fff&text=D"
+          "Correcto",
+          "Falso"
         ],
         "correctAnswer": "1",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "explanation": "Las derivadas se usan para el cálculo de velocidades, aceleraciones, optimizar funciones, y una infinidad más de utilidades.",
         "point": "20"
       },
       {
-        "question": "What are the advantages of React JS?",
+        "question": "¿La derivada de una función puede representarce como una linea curva sobre una grafica?",
         "questionType": "text",
-        "answerSelectionType": "multiple",
+        "answerSelectionType": "single",
         "answers": [
-          "React can be used on client and as well as server side too",
-          "Using React increases readability and makes maintainability easier. Component, Data patterns improves readability and thus makes it easier for manitaining larger apps",
-          "React components have lifecycle events that fall into State/Property Updates",
-          "React can be used with any other framework (Backbone.js, Angular.js) as it is only a view layer"
+          "Correcto",
+          "Falso"
         ],
-        "correctAnswer": [1, 2, 4],
+        "correctAnswer": "2",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "20"
+        "explanation": "La derivada de una función está representada gráficamente como una línea recta superpuesta sobre cualquier curva",
+        "point": "10"
+      },
+      {
+        "question": "¿Que es la derivada?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "es la razón de cambio instantánea con la que varía el valor de dicha función matemática, según se modifique el valor de su variable independiente.",
+          "Relación que existe entre dos conjuntos,con la condición de que a cada elemento del primer conjunto (dominio) le corresponda uno y sólo un elemento del segundo conjunto (contradominio).",
+          "Es la inclinación que tiene una recta",
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
+        "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
+        "explanation": "En cálculo diferencial y análisis matemático, la derivada de una función es la razón de cambio instantánea con la que varía el valor de dicha función matemática, según se modifique el valor de su variable independiente.",
+        "point": "30"
       },
     ]
   } 
