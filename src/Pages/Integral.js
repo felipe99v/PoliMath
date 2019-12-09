@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import FunctionPlotter from "../Components/Graficas/FunctionPlotter";
+import RiemannIntegrability from "../Components/Graficas/RiemannIntegrability";
 
 class Integral extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class Integral extends React.Component {
             <Row noGutters="true">
               <Col>
                 <div id="jxgbox" className="jxgbox">
-                  <FunctionPlotter />
+                  <RiemannIntegrability />
                 </div>
               </Col>
               <Col>
