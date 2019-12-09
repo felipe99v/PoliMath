@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import RiemannIntegrability from "../Components/Graficas/RiemannIntegrability";
+import FunctionPlotter from "../Components/Graficas/FunctionPlotter";
 
 class Limite extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class Limite extends React.Component {
             <Row noGutters="true">
               <Col>
                 <div id="jxgbox" className="jxgbox">
-                  <RiemannIntegrability />
+                  <FunctionPlotter />
                 </div>
               </Col>
               <Col>
