@@ -4,8 +4,8 @@ import React from 'react';
 import '../Styles/App.css';
 
 //Componentes
-import { NavBar } from './NavBar'
-import { Footer } from './Footer'
+import { NavBar } from './navbar'
+import { Footer } from './footer'
 
 const Layout = props => {
     return (
