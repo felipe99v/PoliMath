@@ -3,95 +3,63 @@ export const quiz =  {
     "quizSynopsis": "Quiz sobre integrales",
     "questions": [
       {
-        "question": "How can you access the state of a component from inside of a member function?",
+        "question": "¿A que hace referencia el término “agotamiento”?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "this.getState()",
-          "this.prototype.stateValue",
-          "this.state",
-          "this.values"
+          "Regla para aplicar la integral",
+          "Metodo de integración",
+          "Dividir un problema complejo en problemas mas sensillos",
+          "Disminuir un problema paulatinamente"
         ],
         "correctAnswer": "3",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "explanation": "Dividir un problema complejo en problemas más sencillos es conocido como el método griego llamado “agotamiento” ",
         "point": "20"
       },
       {
-        "question": "ReactJS is developed by _____?",
+        "question": "Porque surge la integración",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "Google Engineers",
-          "Facebook Engineers"
+          "Para hallar el tamaño de un volumen",
+          "Se necesitaba calcular areas mas complejas"
         ],
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "explanation": "En la antiguedad hubo un problema, el problema de las cuadraturas donde se necesitaba saber el area de figuras complejas",
         "point": "20"
       },
       {
-        "question": "ReactJS is an MVC based framework?",
+        "question": "Para hallar el area de una curva debo de realizar rombos?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "True",
-          "False"
+          "Correcto",
+          "Falso"
         ],
         "correctAnswer": "2",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "explanation": "Tienes que dividirla en rectangulos, igual que en la grafica.",
         "point": "10"
       },
       {
-        "question": "Which of the following concepts is/are key to ReactJS?",
+        "question": "Cual de los siguientes conceptos hace refencia a la integral",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "Component-oriented design",
-          "Event delegation model",
-          "Both of the above",
+          "Es una técnica que consiste en la descomposición en factores de una expresión algebraica en forma de producto.",
+          "relación de orden que se da entre dos valores cuando éstos son distintos ",
+          "generalización de la suma de infinitos sumandos",
         ],
         "correctAnswer": "3",
         "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
         "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "explanation": "La integración es un concepto fundamental del cálculo y del análisis matemático. Básicamente, una integral es una generalización de la suma de infinitos sumandos, infinitesimalmente pequeños: una suma continua. La integral es la operación inversa a la derivada.",
         "point": "30"
-      },
-      {
-        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        "questionType": "photo",
-        "answerSelectionType": "single",
-        "answers": [
-          "https://dummyimage.com/600x400/000/fff&text=A",
-          "https://dummyimage.com/600x400/000/fff&text=B",
-          "https://dummyimage.com/600x400/000/fff&text=C",
-          "https://dummyimage.com/600x400/000/fff&text=D"
-        ],
-        "correctAnswer": "1",
-        "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
-        "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "20"
-      },
-      {
-        "question": "What are the advantages of React JS?",
-        "questionType": "text",
-        "answerSelectionType": "multiple",
-        "answers": [
-          "React can be used on client and as well as server side too",
-          "Using React increases readability and makes maintainability easier. Component, Data patterns improves readability and thus makes it easier for manitaining larger apps",
-          "React components have lifecycle events that fall into State/Property Updates",
-          "React can be used with any other framework (Backbone.js, Angular.js) as it is only a view layer"
-        ],
-        "correctAnswer": [1, 2, 4],
-        "messageForCorrectAnswer": "Respuesta Correcta. Buen Trabajo!",
-        "messageForIncorrectAnswer": "Respuesta Incorrecta. Intenta de Nuevo.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "20"
       },
     ]
   } 

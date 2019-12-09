@@ -8,16 +8,16 @@ function Home() {
         <div className=" d-flex justify-content-center">
           <div className="m-md-3">
             <CardButton
-              Nombre="Derivada"
-              Descripcion="Concepto de Derivada"
+              Nombre="limite"
+              Descripcion="Concepto de Limite"
               Boton="Ingresar"
               Ruta="Derivada"
             />
           </div>
           <div className="m-md-3">
             <CardButton
-              Nombre="Límite"
-              Descripcion="Concepto de Límite"
+              Nombre="Derivada"
+              Descripcion="Concepto de Derivada"
               Boton="Ingresar"
               Ruta="Limite"
             />
